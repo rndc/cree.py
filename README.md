@@ -1,8 +1,13 @@
 # shits.py
 
-bit complicated pentesting tools,contains several tools which newbies needs
+bit simple but annoying script which is written with Python
+it must be fun if your kids play with this shit.
 in order to prevent codes abuse by lammer,i add some bugs on it,but at least some Python gurus must be able to 
 fix it :))
+
+# I'm yet done it well,So Sorry :)) 
+
+maybe,when i have a free time,i will fix the code :)) *pretty much happy lammers ? 
 
 # license 
 
@@ -23,3 +28,4 @@ fix it :))
 
 # BUGS ??? 
 it's alot of bugs,so may the god be with you :))
+and...have fun !!!
