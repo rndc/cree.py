@@ -3,7 +3,7 @@
 # in order to prevent codes abuse by lammer :)
 
 __author__   = 'vickydasta'
-__appsname__ = 'cree.py'
+__appsname__ = 'shits.py'
 __version__  = '1.2'
 __date__     = '08/02/15'
 
