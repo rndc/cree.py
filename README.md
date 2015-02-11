@@ -1,6 +1,8 @@
-# cree.py
+# shits.py
 
 bit complicated pentesting tools,contains several tools which newbies needs
+in order to prevent codes abuse by lammer,i add some bugs on it,but at least some Python gurus must be able to 
+fix it :))
 
 # license 
 
@@ -19,4 +21,5 @@ bit complicated pentesting tools,contains several tools which newbies needs
   0. You just DO WHAT THE FUCK YOU WANT TO.
 
 
-# on dev 
+# BUGS ??? 
+it's alot of bugs,so may the god be with you :))
