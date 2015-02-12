@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 __author__   = 'vickydasta'
-__appsname__ = 'shitslib.py'
+__appsname__ = 'justest'
 __version__  = '1.2'
 __date__     = '08/02/15'
 
