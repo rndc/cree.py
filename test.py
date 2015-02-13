@@ -35,7 +35,7 @@ def ask():
                         port=raw_input('> port :')
                         pckts = raw_input("> random ? Y/N")
                         if pckts == 'Y' or pckts == 'y':
-                            url=['www.google.com','www.reddit.com'.'www.detik.com']
+                            url=['www.google.com','www.reddit.com','www.detik.com']
                             from random import choice
                             url= random.choice(url)
                             pckts=collectgarbage(url)
