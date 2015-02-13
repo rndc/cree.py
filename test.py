@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# justest :))
-
 from creep import webserver,collectgarbage,lanattack
 import os
 # webserverattack --> webserver(url,itter,packets)
@@ -41,10 +38,6 @@ def ask():
                             pckts=collectgarbage(url)
                         else:
                             url=raw_input('> url:')
-                            if 'http://' not in url:
-                                'http://'+url
-                            else:
-                                pass
                             pckts=collectgarbage(url)
 
                         lanattack(iptgt,port,pckts)
@@ -55,7 +48,7 @@ def ask():
                     sys.exit('[+] terminatting program...')
         else:
             print 'type help for more info.'
-        except Exception:
-            print 'something were wrong !!'
+    except Exception:
+        print 'something were wrong !!'
 if __name__ == '__main__':
     ask()
