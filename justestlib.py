@@ -21,27 +21,6 @@ from email.MIMEImage import MIMEImage
 from email.MIMEText import MIMEText
 from datetime import datetime 
 
-
-def ask():
-
-    os.system('clear')
-    while True:
-        jawab = input('>>> ')
-        cmdlist=[1,2,3,4,5,help]
-        if jawab in cmdlist:
-            if jawab == 1:
-                webserver()
-            elif jawab == 2:
-                LAN_DOS()
-            elif jawab == 3:
-                mail()
-            elif jawab == 4:
-                about()
-            elif jawab == 5:
-                sys.exit()
-        else:
-            print 'type help for more info.'
-
 def collectgarbage(url):
     # collect some garbage
     # from urllib and read given url data
