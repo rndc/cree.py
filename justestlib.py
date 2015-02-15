@@ -13,6 +13,8 @@ import smtplib
 import email
 import os
 import random
+import socket
+import string
 from email.MIMEMultipart import MIMEMultipart
 from email.Utils import COMMASPACE
 from email.MIMEBase import MIMEBase
@@ -20,6 +22,26 @@ from email.parser import Parser
 from email.MIMEImage import MIMEImage
 from email.MIMEText import MIMEText
 from datetime import datetime 
+
+sock=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+def scanport(ip):
+    if 'http://' not in ip:
+        for port in range(1,1025):
+            cek=sock.connect_ex((ip ,port))
+            if cek == 0:
+                print 'port : {} --> open'.format(port)
+            else:
+                print 'port : {} --> closed'.format(port)
+
+        ip=socket.gethostbyname(ip)
+        print '[-] scanning ' + str(ip)
+        for port in range(1,4000):
+            check=sock.connect_ex((ip, port))
+            if check == 0:
+                print 'port : {} --> open'.format(port)
+            else:
+                print 'port : {} --> closed'.format(port)
 
 def collectgarbage(url):
     # collect some garbage
